@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<title>tHe gRaNd fInAlE!!</title>
+<head>
+<style>
+body {
+  background-image: url("the_end.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
