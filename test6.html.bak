@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("pennywise.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<title>DO YOU LIKE BOATS?</title>
+<body>
+
+<h1 style="color:White;">Do You WanNa Play A Game?</h1>
+
+<img src="scared_cat.jpg" alt="picture of cat" style="width:250px;height:300px;">
+
+<form action="test7.html">
+  <p style="color:Red;">Were you scared???</p>
+  <input type="radio" id="YES" name="fav_language" value="YES">
+  <label for="html">YES</label><br>
+  <input type="radio" id="NO" name="fav_language" value="NO">
+  <label for="css">NO</label><br>
+
+ <br>  
+
+  <p style="color:Red;">POP QUIZ...WHich CLoWn am I???:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">RoNalD McDonAld</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">PenNywIse</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">CruSty tHe cLoWn</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
