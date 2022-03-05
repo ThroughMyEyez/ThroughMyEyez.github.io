@@ -20,7 +20,7 @@ body {
 
 <img src="scared_cat.jpg" alt="picture of cat" style="width:250px;height:300px;">
 
-<form action="test7.html">
+<form action="/action_page.php">
   <p style="color:Red;">Were you scared???</p>
   <input type="radio" id="YES" name="fav_language" value="YES">
   <label for="html">YES</label><br>
