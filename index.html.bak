@@ -1,10 +1,12 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <body>
 
 <h1>My Self Portrait</h1>
 
-
+<p>This was made with code
+</p>
 
 <iframe src="New_self_portrait/index.html" height="530" width="530" title="Iframe Example"></iframe>
 
@@ -127,8 +129,27 @@ arc(390, 275, 40, 40, radians(270), radians(90)); // right inside ear
 }
 </pre>
 
-<p>This was made with code
-</p>
+
 
 </body>
 </html>
+=======
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch_220309a.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <style> body { padding: 0; margin: 0; } </style>
+</head>
+
+<body>
+</body>
+</html>
+>>>>>>> 030768795faf930a597c86e1760d701f2c1dd9a6
