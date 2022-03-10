@@ -4,8 +4,7 @@
 
 <h1>My Self Portrait</h1>
 
-<p>This was made with code
-</p>
+
 
 <iframe src="New_self_portrait/index.html" height="530" width="530" title="Iframe Example"></iframe>
 
@@ -128,7 +127,8 @@ arc(390, 275, 40, 40, radians(270), radians(90)); // right inside ear
 }
 </pre>
 
-
+<p>This was made with code
+</p>
 
 </body>
 </html>

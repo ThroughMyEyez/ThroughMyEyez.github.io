@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>My Self Portrait</h1>
-
-<p>This was made with code
-</p>
-
-<iframe src="New_self_portrait/index.html" height="530" width="530" title="Iframe Example"></iframe>
-
-<pre>
 function setup() {
 createCanvas(530 , 530);
 }
@@ -126,9 +114,3 @@ arc(390, 275, 40, 40, radians(270), radians(90)); // right inside ear
 
 
 }
-</pre>
-
-
-
-</body>
-</html>
