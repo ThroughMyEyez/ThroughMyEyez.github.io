@@ -2,17 +2,18 @@ var img;
 var initials ='jm'; // your initials
 var choice = '1'; // starting choice, so it is not empty
 var screenbg = 250; // off white background
-var lastscreenshot= 61; // last screenshot never taken
+var lastscreenshot=61; // last screenshot never taken
 
 function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage("stophatechaos.png");
+  img = loadImage('https://ThroughMyEyez.github.io/diyps_2022/stophate.jpg');
+  img2 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/New_image.png');
 }
 
 function setup() {
-createCanvas(600, 400);  // canvas size
+createCanvas(600, 600);  // canvas size
 background(screenbg);   // use our background screen color
 
 }
@@ -40,7 +41,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '2') { // second tool
 
     stroke(20);
-    line(mouseX, mouseY, pmouseX, pmouseY);
+    line(10, 10, mouseX, mouseY);
   } else if (toolChoice == '3') { // third tool
 
     stroke(300, 100, 0, 80);
@@ -77,7 +78,10 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     fill(random(255), random(255), random(255), random(255));
     rect(mouseX, mouseY, 200, 150);
   } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
-    image(img, mouseX, mouseY);
+    image(img, mouseX-30, mouseY-30);
+    
+  } else if (toolChoice == 'j' || toolChoice == 'J') { // g places the image we pre-loaded
+    image(img2, mouseX-60, mouseY-60);
     
   }
  }
