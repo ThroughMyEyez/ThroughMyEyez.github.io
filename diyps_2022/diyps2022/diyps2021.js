@@ -39,6 +39,19 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   // just make sure each key option has the a stroke or fill and then what type of 
   // graphic function
 
+//Thin Line
+ if (toolChoice == '0' ) {  // first tool
+   
+    stroke(01);
+    strokeWeight(1);
+    line(mouseX, mouseY, pmouseX, pmouseY);
+
+  } else if (toolChoice == '5') { // rotate 180 line to origin
+    let originX = width / 2;
+    let originY = height / 2;
+    line(mouseX, mouseY, originX, originY);
+    line(width - mouseX, height - mouseY, originX, originY);
+
   }  else if (toolChoice == '1') { //inserts acme clock
     image(img1, mouseX, mouseY);
 
