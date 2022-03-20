@@ -13,8 +13,8 @@ function preload() {
   img3 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/gold_clock.png');
   img4 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/green_clock.png');
   img5 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/green_shoes_clock.png');
-  img6 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/omg_clock.png);
-  img7 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/running_clock.png);
+  img6 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/omg_clock.png');
+  img7 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/running_clock.png');
 }
 
 function setup() {
