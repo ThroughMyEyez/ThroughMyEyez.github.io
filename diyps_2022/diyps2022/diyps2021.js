@@ -8,13 +8,13 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img1 = loadImage('acme_clock.png');
-  img2 = loadImage('blue_clock.png');
-  img3 = loadImage('gold_clock.png');
-  img4 = loadImage('green_clock.png');
-  img5 = loadImage('green_shoes_clock.png');
-  img6 = loadImage('omg_clock.png');
-  img7 = loadImage('running_clock.png');
+  img1 = loadImage("acme_clock.png");
+  img2 = loadImage("blue_clock.png");
+  img3 = loadImage("gold_clock.png");
+  img4 = loadImage("green_clock.png");
+  img5 = loadImage("green_shoes_clock.png");
+  img6 = loadImage("omg_clock.png");
+  img7 = loadImage("running_clock.png");
 }
 
 function setup() {
@@ -46,7 +46,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     strokeWeight(1);
     line(mouseX, mouseY, pmouseX, pmouseY);
 
-  } else if (toolChoice == '5') { // rotate 180 line to origin
+  } else if (toolChoice == 'g' || toolChoice == 'G') { // rotate 180 line to origin
     let originX = width / 2;
     let originY = height / 2;
     line(mouseX, mouseY, originX, originY);

@@ -8,12 +8,13 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img1 = loadImage('acme_clock.png');
-  img2 = loadImage('gold_clock.png');
-  img4 = loadImage('green_clock.png');
-  img5 = loadImage('green_shoes_clock.png');
-  img6 = loadImage('omg_clock.png');
-  img7 = loadImage('running_clock.png');
+ img1 = loadImage("acme_clock.png");
+  img2 = loadImage("blue_clock.png");
+  img3 = loadImage("gold_clock.png");
+  img4 = loadImage("green_clock.png");
+  img5 = loadImage("green_shoes_clock.png");
+  img6 = loadImage("omg_clock.png");
+  img7 = loadImage("running_clock.png");
 }
 
 function setup() {
