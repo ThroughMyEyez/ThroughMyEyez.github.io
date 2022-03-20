@@ -46,7 +46,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     strokeWeight(1);
     line(mouseX, mouseY, pmouseX, pmouseY);
 
-  } else if (toolChoice == '5') { // rotate 180 line to origin
+  } else if (toolChoice == 'g' || toolChoice == 'G') { // rotate 180 line to origin
     let originX = width / 2;
     let originY = height / 2;
     line(mouseX, mouseY, originX, originY);
