@@ -8,13 +8,13 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img1 = loadImage('ThroughMyEyez.github.io/diyps_2022/diyps2022/acme_clock.png');
-  img2 = loadImage('ThroughMyEyez.github.io/diyps_2022/diyps2022/blue_clock.png');
-  img3 = loadImage('ThroughMyEyez.github.io/diyps_2022/diyps2022/gold_clock.png');
-  img4 = loadImage('ThroughMyEyez.github.io/diyps_2022/diyps2022/green_clock.png');
-  img5 = loadImage('ThroughMyEyez.github.io/diyps_2022/diyps2022/green_shoes_clock.png');
-  img6 = loadImage('ThroughMyEyez.github.io/diyps_2022/diyps2022/omg_clock.png');
-  img7 = loadImage('ThroughMyEyez.github.io/diyps_2022/diyps2022/running_clock.png');
+  img1 = loadImage('diyps_2022/diyps2022/acme_clock.png');
+  img2 = loadImage('diyps_2022/diyps2022/blue_clock.png');
+  img3 = loadImage('diyps_2022/diyps2022/gold_clock.png');
+  img4 = loadImage('diyps_2022/diyps2022/green_clock.png');
+  img5 = loadImage('diyps_2022/diyps2022/green_shoes_clock.png');
+  img6 = loadImage('diyps_2022/diyps2022/omg_clock.png');
+  img7 = loadImage('diyps_2022/diyps2022/running_clock.png');
 }
 
 function setup() {
