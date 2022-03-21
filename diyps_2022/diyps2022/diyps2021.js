@@ -49,41 +49,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, originX, originY);
     line(width - mouseX, height - mouseY, originX, originY);
 
-  } else if (toolChoice == '3') { // third tool
 
-    stroke(300, 100, 0, 80);
-    line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '4') {
-
-    stroke(0, 0, 255);
-    line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (key == '5') { // this tool calls a function
-    stroke(0, 0, 255);
-    testbox(20, 20, 200);
-    testbox(200, 20, 20);
-    
- // make testbox do something!
- //   line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '6') {
-
-    stroke(200);
-    line(mouseX, mouseY, pmouseX, pmouseY);
-  } else if (toolChoice == '7') {
-
-    fill(100, 200, 100);
-    rect(mouseX, mouseY, 20, 20);
-  } else if (toolChoice == '8') {
-
-    fill(300, 100, 0, 80);
-    rect(mouseX, mouseY, 20, 20);
-  } else if (toolChoice == '9') {
-
-    fill(300, 100, 0, 80);
-    rect(mouseX, mouseY, 40, 40);
-  } else if (toolChoice == '0') {
-    stroke(0, 0);
-    fill(random(255), random(255), random(255), random(255));
-    rect(mouseX, mouseY, 200, 150);
   } else if (toolChoice == 'b' || toolChoice == 'B') { // g places the image we pre-loaded
     image(img, mouseX-30, mouseY-30);
     
@@ -93,16 +59,16 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == 'a' || toolChoice == 'A') { // g places the image we pre-loaded
     image(img3, mouseX-60, mouseY-60);
     
-  }else if (toolChoice == 'm' || toolChoice == 'M') { // g places the image we pre-loaded
+  } else if (toolChoice == 'm' || toolChoice == 'M') { // g places the image we pre-loaded
     image(img4, mouseX-60, mouseY-60);
     
-  }else if (toolChoice == 'i' || toolChoice == 'I') { // g places the image we pre-loaded
+  } else if (toolChoice == 'i' || toolChoice == 'I') { // g places the image we pre-loaded
     image(img5, mouseX-60, mouseY-60);
     
-  }else if (toolChoice == 'e' || toolChoice == 'E') { // g places the image we pre-loaded
+  } else if (toolChoice == 'e' || toolChoice == 'E') { // g places the image we pre-loaded
     image(img6, mouseX-60, mouseY-60);
     
-  }else if (toolChoice == 'n' || toolChoice == 'N') { // g places the image we pre-loaded
+  } else if (toolChoice == 'n' || toolChoice == 'N') { // g places the image we pre-loaded
     image(img7, mouseX-60, mouseY-60);
     
   }
