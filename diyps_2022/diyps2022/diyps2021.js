@@ -10,6 +10,11 @@ function preload() {
 // you can link to an image on your github account
   img = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/acme_clock.png');
   img2 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/blue_clock.png');
+  img3 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/gold_clock.png');
+  img4 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/green_clock.png');
+  img5 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/green_shoes_clock.png');
+  img6 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/omg_clock.png');
+  img7 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/running_clock.png');
 }
 
 function setup() {
@@ -38,10 +43,12 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     stroke(01);
     line(mouseX, mouseY, pmouseX, pmouseY);
     
-  } else if (toolChoice == '2') { // second tool
+  } else if (toolChoice == '2') { // rotate 180 line to origin
+    let originX = width / 2;
+    let originY = height / 2;
+    line(mouseX, mouseY, originX, originY);
+    line(width - mouseX, height - mouseY, originX, originY);
 
-    stroke(20);
-    line(10, 10, mouseX, mouseY);
   } else if (toolChoice == '3') { // third tool
 
     stroke(300, 100, 0, 80);
@@ -77,11 +84,26 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
     rect(mouseX, mouseY, 200, 150);
-  } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
+  } else if (toolChoice == 'b' || toolChoice == 'B') { // g places the image we pre-loaded
     image(img, mouseX-30, mouseY-30);
     
-  } else if (toolChoice == 'j' || toolChoice == 'J') { // g places the image we pre-loaded
+  } else if (toolChoice == 'd' || toolChoice == 'D') { // g places the image we pre-loaded
     image(img2, mouseX-60, mouseY-60);
+    
+  } else if (toolChoice == 'a' || toolChoice == 'A') { // g places the image we pre-loaded
+    image(img3, mouseX-60, mouseY-60);
+    
+  }else if (toolChoice == 'm' || toolChoice == 'M') { // g places the image we pre-loaded
+    image(img4, mouseX-60, mouseY-60);
+    
+  }else if (toolChoice == 'i' || toolChoice == 'I') { // g places the image we pre-loaded
+    image(img5, mouseX-60, mouseY-60);
+    
+  }else if (toolChoice == 'e' || toolChoice == 'E') { // g places the image we pre-loaded
+    image(img6, mouseX-60, mouseY-60);
+    
+  }else if (toolChoice == 'n' || toolChoice == 'N') { // g places the image we pre-loaded
+    image(img7, mouseX-60, mouseY-60);
     
   }
  }
