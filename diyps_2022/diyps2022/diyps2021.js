@@ -113,3 +113,5 @@ function saveme(){
     saveCanvas(filename, 'jpg');
   }
   lastscreenshot=second(); // set this to the current second so no more than one per second
+
+}
