@@ -8,8 +8,8 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('https://ThroughMyEyez.github.io/diyps_2022/acme_clock.png');
-  img2 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/blue_clock.png');
+  img = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/acme_clock.png');
+  img2 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/diyps2022/blue_clock.png');
 }
 
 function setup() {
