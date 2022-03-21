@@ -8,17 +8,12 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img1 = loadImage("acme_clock.png");
-  img2 = loadImage("blue_clock.png");
-  img3 = loadImage("gold_clock.png");
-  img4 = loadImage("green_clock.png");
-  img5 = loadImage("green_shoes_clock.png");
-  img6 = loadImage("omg_clock.png");
-  img7 = loadImage("running_clock.png");
+  img = loadImage('https://ThroughMyEyez.github.io/diyps_2022/acme_clock.png');
+  img2 = loadImage('https://ThroughMyEyez.github.io/diyps_2022/blue_clock.png');
 }
 
 function setup() {
-createCanvas(800, 800);  // canvas size
+createCanvas(600, 600);  // canvas size
 background(screenbg);   // use our background screen color
 
 }
@@ -38,39 +33,56 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   // just make sure each key option has the a stroke or fill and then what type of 
   // graphic function
 
-//Thin Line
- if (toolChoice == '0' ) {  // first tool
+ if (toolChoice == '1' ) {  // first tool
    
     stroke(01);
-    strokeWeight(1);
     line(mouseX, mouseY, pmouseX, pmouseY);
-
-  } else if (toolChoice == 'g' || toolChoice == 'G') { // rotate 180 line to origin
-    let originX = width / 2;
-    let originY = height / 2;
-    line(mouseX, mouseY, originX, originY);
-    line(width - mouseX, height - mouseY, originX, originY);
-
-  }  else if (toolChoice == '1') { //inserts acme clock
-    image(img1, mouseX, mouseY);
-
-  } else if (toolChoice == '2') { //inserts blue clock
-    image(img2, mouseX, mouseY);
     
-  } else if (toolChoice == '3') { //inserts gold clock
-    image(img3, mouseX, mouseY);
+  } else if (toolChoice == '2') { // second tool
 
-  }  else if (toolChoice == '4') { //inserts green clock
-    image(img4, mouseX, mouseY);
+    stroke(20);
+    line(10, 10, mouseX, mouseY);
+  } else if (toolChoice == '3') { // third tool
 
-  } else if (toolChoice == '5') { //inserts green shoes clock
-    image(img5, mouseX, mouseY);
+    stroke(300, 100, 0, 80);
+    line(mouseX, mouseY, pmouseX, pmouseY);
+  } else if (toolChoice == '4') {
+
+    stroke(0, 0, 255);
+    line(mouseX, mouseY, pmouseX, pmouseY);
+  } else if (key == '5') { // this tool calls a function
+    stroke(0, 0, 255);
+    testbox(20, 20, 200);
+    testbox(200, 20, 20);
     
-  } else if (toolChoice == '6') { //inserts omg clock
-    image(img6, mouseX, mouseY);
+ // make testbox do something!
+ //   line(mouseX, mouseY, pmouseX, pmouseY);
+  } else if (toolChoice == '6') {
 
-  } else if (toolChoice == '7') { //inserts running clock
-    image(img7, mouseX, mouseY);
+    stroke(200);
+    line(mouseX, mouseY, pmouseX, pmouseY);
+  } else if (toolChoice == '7') {
+
+    fill(100, 200, 100);
+    rect(mouseX, mouseY, 20, 20);
+  } else if (toolChoice == '8') {
+
+    fill(300, 100, 0, 80);
+    rect(mouseX, mouseY, 20, 20);
+  } else if (toolChoice == '9') {
+
+    fill(300, 100, 0, 80);
+    rect(mouseX, mouseY, 40, 40);
+  } else if (toolChoice == '0') {
+    stroke(0, 0);
+    fill(random(255), random(255), random(255), random(255));
+    rect(mouseX, mouseY, 200, 150);
+  } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
+    image(img, mouseX-30, mouseY-30);
+    
+  } else if (toolChoice == 'j' || toolChoice == 'J') { // g places the image we pre-loaded
+    image(img2, mouseX-60, mouseY-60);
+    
   }
  }
  
@@ -101,5 +113,3 @@ function saveme(){
     saveCanvas(filename, 'jpg');
   }
   lastscreenshot=second(); // set this to the current second so no more than one per second
-  
-}
