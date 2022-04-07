@@ -20,7 +20,7 @@
 	<li class="nav-item"><a class="nav-link" href="glitch.html">GLITCH ART</a></li>
 	<li class="nav-item"><a class="nav-link" href="mememashup.html">MEME</a></li>
     	<li class="nav-item"><a class="nav-link" href="p5js.html">p5js SELFIE</a></li>
-	<li class="nav-item"><a class="nav-link" href="diyps.html">DIYPS</a></li>
+	<li class="nav-item"><a class="nav-link" href="diyphotoshop74.html">DIYPS</a></li>
     	<li class="nav-item"><a class="nav-link" href="netart74.html">NET-ART</a></li>
    	<li class="nav-item"><a class="nav-link" href="future1.html">future1</a></li>
    	<li class="nav-item"><a class="nav-link" href="future2.html">future2</a></li>
@@ -65,13 +65,29 @@ div {text-align: center;}</style>
 <img src="sun_glitch2.jpg" class="mx-auto d-block" alt="Glitch images" style="width:250px;height:250px;">
 </a>
 
-
 <h1><b>
 <pre style="color:white;font-size:35px;" class="text-decoration-underline">Meme Mash Up</pre>
 </b>
 </h1>
 <a href="mememashup.html">
 <img src="whokilledtom.jpg" class="mx-auto d-block" alt="Meme Mash Up Images" style="width:250px;height:250px;">
+</a>
+
+<h1><b>
+<pre style="color:white;font-size:35px;" class="text-decoration-underline">P5JS</pre>
+</b>
+</h1>
+<a href="p5js.html">
+<img src="New image.png" class="mx-auto d-block" alt="self portrait" style="width:250px;height:250px;">
+</a>
+
+
+<h1><b>
+<pre style="color:white;font-size:35px;" class="text-decoration-underline">P5JS</pre>
+</b>
+</h1>
+<a href="diyphotoshop74.html">
+<img src="time.jpg" class="mx-auto d-block" alt="diyps" style="width:250px;height:250px;">
 </a>
 
 
