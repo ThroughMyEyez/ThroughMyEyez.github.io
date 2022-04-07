@@ -50,11 +50,12 @@ body {
 <style> h1 {text-align: center;}
 p {text-align: center;}
 pre {text-align: center;}
-iframe {text-align: center;}
 div {text-align: center;}</style>
 
 <h1 style="color:white; font-size:50px;">Welcome to my DIY Photoshop</h1>
 <p style="color:red; font-size:20px;"><b>A Wrinkle In Time" is my theme...</b></p>
+
+<img src="time.jpg" class="mx-auto d-block" alt="A Wrinkle in Time" style="width:404px;height:442px;">
 
 <p style="color:white; font-size:15px;">Use my legend below to crerate your own representation of time! Have fun!!</p>
 
