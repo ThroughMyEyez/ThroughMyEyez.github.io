@@ -22,8 +22,6 @@
     	<li class="nav-item"><a class="nav-link" href="p5js.html">p5js SELFIE</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyphotoshop74.html">DIYPS</a></li>
     	<li class="nav-item"><a class="nav-link" href="netart74.html">NET-ART</a></li>
-   	<li class="nav-item"><a class="nav-link" href="future1.html">future1</a></li>
-   	<li class="nav-item"><a class="nav-link" href="future2.html">future2</a></li>
 </ul> 
 </nav>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
@@ -48,6 +46,7 @@ body {
 </head>
 <body>
 <style> h1 {text-align: center;}
+h2 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}</style>
 
