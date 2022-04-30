@@ -11,7 +11,6 @@ var gameState ="begin";
 function preload() {
   
   beginImg = loadImage('https://throughmyeyez.github.io/74portfolio/game/catch_html/lachancla.jpg');
-  img1 = loadImage ('https://throughmyeyez.github.io/74portfolio/game/catch_html/Dinos.jpg'); //background L1
   img2 = loadImage('https://throughmyeyez.github.io/74portfolio/game/catch_html/cartoonduck.png');
   img3 = loadImage ('https://throughmyeyez.github.io/74portfolio/game/catch_html/youwin.jpg'); //background L2
   img4 = loadImage('https://throughmyeyez.github.io/74portfolio/game/catch_html/jungle.jpg'); 
