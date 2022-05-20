@@ -22,6 +22,7 @@
     	<li class="nav-item"><a class="nav-link" href="p5js.html">p5js SELFIE</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyphotoshop74.html">DIYPS</a></li>
     	<li class="nav-item"><a class="nav-link" href="netart74.html">NET-ART</a></li>
+		<li class="nav-item"><a class="nav-link" href="netart74.html">3D Print (Final Project)</a></li>
 </ul> 
 </nav>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
@@ -58,7 +59,7 @@ div {text-align: center;}</style>
 <img src="me.jpg" class="mx-auto d-block" alt="picture of me" style="width:250px;height:300px;">
 
 <p	style="color:Red;">Prepare yourself to embark on a journey into the foundations of my life.</p>
-<p	style="color:Black;">CLICK THE LINK BELOW!!</p>
+<p	style="color:white;">CLICK THE LINK BELOW!!</p>
 
 <p><a href="test2.html">My Greek Life</a></p>
 

@@ -20,7 +20,7 @@
     	<li class="nav-item"><a class="nav-link" href="p5js.html">p5js SELFIE</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyphotoshop74.html">DIYPS</a></li>
     	<li class="nav-item"><a class="nav-link" href="netart74.html">NET-ART</a></li>
-		<li class="nav-item"><a class="nav-link" href="3dprint_finalproject.html">3D Print (Final Project)</a></li>
+		<li class="nav-item"><a class="nav-link" href="netart74.html">3D Print (Final Project)</a></li>
 </ul> 
 </nav>
 </style>
@@ -32,7 +32,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  background-image: url("cage_fighter.jpg");
+  background-image: url("rose.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -40,36 +40,58 @@ body {
 }
 </style>
 </head>
-<body>
 
 <style> h1 {text-align: center;}
 h2 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}</style>
 
-<title>Cage Life</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
 <body>
-<h1 style="color:White;">Capital Combat Presents (my second fight)</h1>
 
-<iframe class="mx-auto d-block" width="560" height="315" src="https://www.youtube.com/embed/LURUSUVjFp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1 style="color:Red;">SHE IS A ROSE IN A BUSH FULL OF THORNS!!</h1>
 
-<h2 style="color:White;">Weighing in for my first fight</h2>
-<img class="mx-auto d-block" src="wiegh_ins.JPG" alt="first fight weigh ins" style="width:500px;height:600px;">
+<div class="row">
+  <div class="column">
+    <img class="mx-auto d-block" src="ga.jpg" alt="great america" style="width:75%">
+  </div>
+  <div class="column">
+    <img class="mx-auto d-block" src="christmas_in_the_park.jpg" alt="fun" style="width:75%">
+  </div>
+  <div class="column">
+    <img class="mx-auto d-block" src="holiday_pic.jpg" alt="christmas pic" style="width:95%">
+  </div>
+</div>
+<body>
 
-<h2 style="color:White;">After my first fight</h2>
-<img class="mx-auto d-block" src="after_math.JPG" alt="after photo" style="width:500px;height:700px;">
+<title>My Love</title>
+</head>
+<body>
 
-<h2 style="color:White;">Weighing in for my second fight</h2>
-<img class="mx-auto d-block" src="cc_1.JPG" alt="second fight weigh ins" style="width:500px;height:600px;">
+<h2 style="font-size:15px; color:White;">Enough about me!</h2>
+<h2 style="font-size:15px; color:White;">Lets get to know you now!</h2>
 
-<h2 style="color:White;">My second fight</h2>
-<img class="mx-auto d-block" src="cc_2.JPG" alt="This is who I am" style="width:500px;height:600px;">
+<h1 style="color:yellow;">You Dare Continue?</h1>
+<p><a style="font-size:35px; color:red" href="test5.html">Enter at your own risk!</a></p>
 
-<h1 style="color:white;">Click the link Below to continue</h1>
-<p><a style="font-size:35px; color:red" href="test4.html">The Love of My Life</a></p>
 
 </body>
 </html>
-
-

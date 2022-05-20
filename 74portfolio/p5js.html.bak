@@ -22,6 +22,7 @@
     	<li class="nav-item"><a class="nav-link" href="p5js.html">p5js SELFIE</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyphotoshop74.html">DIYPS</a></li>
     	<li class="nav-item"><a class="nav-link" href="netart74.html">NET-ART</a></li>
+		<li class="nav-item"><a class="nav-link" href="netart74.html">3D Print (Final Project)</a></li>
 </ul> 
 </nav>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
@@ -55,7 +56,7 @@ div {text-align: center;}</style>
 
 <img src="New image.png" class="mx-auto d-block" alt="self portrait" style="width:542px;height:504px;">
 
-<h1 style="color:black; font-size:20px;">Feel free to copy & paste my code and edit my image to your liking! </h1>
+<h1 style="color:black; font-size:30px;">Feel free to copy & paste my code and edit my image to your liking! </h1>
 
 <p>
 <pre style="color:white; font-size:15px;">

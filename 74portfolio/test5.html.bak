@@ -10,7 +10,7 @@
     	<li class="nav-item"><a class="nav-link" href="p5js.html">p5js SELFIE</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyphotoshop74.html">DIYPS</a></li>
     	<li class="nav-item"><a class="nav-link" href="netart74.html">NET-ART</a></li>
-		<li class="nav-item"><a class="nav-link" href="3dprint_finalproject.html">3D Print (Final Project)</a></li>
+		<li class="nav-item"><a class="nav-link" href="netart74.html">3D Print (Final Project)</a></li>
 </ul> 
 </nav>
 </style>
@@ -21,11 +21,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Gotcha</title>
+<title>WOOF WOOF</title>
 <body>
 <style>
 body {
-  background-image: url("gif2.jpg");
+  background-image: url("petsimage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -33,25 +33,28 @@ body {
 }
 </style>
 
-<body>
 <style> h1 {text-align: center;}
-h2 {text-align: center;}
 form {text-align: center;}
+h2 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}</style>
+</head>
 
+<h2 style="font-size:35px; color:red">DO YOU LIKE DOGS?</h2>
 
-<body>
+<img class="mx-auto d-block" src="dogs.jpg" alt="picture dogs" style="width:425px;height:300px;">
 
-<h2 style="font-size:35px; color:gold;">You thought something was gunna pop out and scare ya huh!!</h2>
+<h1	style="color:Black;">DO YOU HAVE ANY PETS?</h1>
 
-<form action="test9.html">
-  <label style="font-size:25px; color:red" for="fname">What was your favorite part?</label><br>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label style="font-size:35px; color:Gold" for="fname">I TRIPLE DOG DARE YA TO CLICK SUBMIT ONCE MORE</label><br>
+<form action="test6.html">
+  <label for="fname" style="font-size:35px; color:red">Whats your favorite type of animal?:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname" style="font-size:35px; color:Green">Are you scared of any type of animals?:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="lname" style="font-size:35px; color:Red">Click SUBMIT to CONTINUE!:</label><br>
   <input type="submit" value="Submit">
-  
 </form>
+
 
 </body>
 </html>
