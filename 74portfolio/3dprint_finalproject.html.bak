@@ -59,18 +59,5 @@ body {
 </div>
 
 
-
-<p style="color:White; font-size:20px;"><b>Explosion on the sun up close.</b></p>
-<img src="screenshotofsun.jpg" class="float-end" alt="sun_glitch" style="width:542px;height:504px;">
-<br>
-
-<p style="color:White; font-size:20px;"><b>Glitched explosion on the sun.</b></p>
-<img src="sun_glitch2.jpg" class="float-end" alt="sun_glitch2" style="width:404px;height:442px;">
-
-
-<p style="color:White; font-size:20px;"><b>Explosion on the sun from a far.</b></p>
-<img src="sunglitch3.jpg" class="mx-auto d-block" alt="sun_glitch3" style="width:542px;height:504px;">
-
-
 </body>
 </html>
